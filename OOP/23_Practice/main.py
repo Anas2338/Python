@@ -27,3 +27,20 @@
 # animal_sound(dog)
 # animal_sound(cat)
 # animal_sound(lion)
+
+class Shape:
+    def area(self):
+        pass
+
+class Circle(Shape):
+    def area(self):
+        return 3.14 * 5 * 5
+
+class Square(Shape):
+    def area(self):
+        return 5 * 5
+
+shapes = [Circle(), Square()]
+
+for shape in shapes:
+    print(shape.area())

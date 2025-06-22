@@ -1,0 +1,17 @@
+[project]
+name = "24-dataclasses"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Anas2338", email = "mohdanus20@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = []
+
+[project.scripts]
+24-dataclasses = "24_dataclasses:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
